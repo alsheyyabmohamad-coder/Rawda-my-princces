@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>إلى سدين ❤️</title>
+<title>إلى روضة 👑❤️</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Amiri:wght@400;700&display=swap');
 * {
@@ -20,12 +20,10 @@ body {
         radial-gradient(circle at 20% 20%, #32101d 0%, transparent 30%),
         radial-gradient(circle at 80% 70%, #250d19 0%, transparent 30%),
         #080508;
-    color: #fff;
+    color: white;
     overflow-x: hidden;
 }
-/* =========================
-   خلفية متحركة
-========================= */
+/* الخلفية */
 .background {
     position: fixed;
     inset: 0;
@@ -50,7 +48,6 @@ body {
     background: #9d3cff;
     bottom: 5%;
     left: -100px;
-    animation-delay: 2s;
 }
 @keyframes moveGlow {
     from {
@@ -60,9 +57,7 @@ body {
         transform: translate(80px,50px) scale(1.3);
     }
 }
-/* =========================
-   القلوب الطائرة
-========================= */
+/* القلوب */
 .heart {
     position: fixed;
     bottom: -30px;
@@ -85,9 +80,7 @@ body {
         opacity: 0;
     }
 }
-/* =========================
-   شاشة البداية
-========================= */
+/* البداية */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -129,7 +122,6 @@ body {
 .hero h2 {
     font-family: 'Amiri', serif;
     font-size: clamp(24px, 5vw, 42px);
-    margin-top: 5px;
     color: #ffd5dc;
 }
 .hero p {
@@ -147,7 +139,6 @@ body {
     font-size: 18px;
     cursor: pointer;
     transition: .4s;
-    box-shadow: 0 0 25px rgba(255,70,105,.15);
 }
 .start:hover {
     transform: translateY(-5px) scale(1.04);
@@ -164,9 +155,7 @@ body {
         transform: translateY(0);
     }
 }
-/* =========================
-   الأقسام
-========================= */
+/* الأقسام */
 section {
     width: 92%;
     max-width: 1100px;
@@ -190,9 +179,7 @@ section {
     color: #aaa;
     margin-top: 10px;
 }
-/* =========================
-   رسالة الاعتذار
-========================= */
+/* الرسالة */
 .letter {
     background:
         linear-gradient(
@@ -209,14 +196,6 @@ section {
     position: relative;
     overflow: hidden;
 }
-.letter::before {
-    content: "❤️";
-    position: absolute;
-    font-size: 180px;
-    opacity: .025;
-    left: -30px;
-    bottom: -60px;
-}
 .letter h3 {
     color: #ff9eae;
     font-size: 30px;
@@ -228,9 +207,7 @@ section {
     font-size: 23px;
     line-height: 2.1;
 }
-/* =========================
-   الكروت
-========================= */
+/* الكروت */
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -243,8 +220,6 @@ section {
     border: 1px solid rgba(255,255,255,.09);
     border-radius: 25px;
     transition: .4s;
-    position: relative;
-    overflow: hidden;
 }
 .card:hover {
     transform: translateY(-10px);
@@ -263,9 +238,7 @@ section {
     color: #aaa;
     line-height: 1.8;
 }
-/* =========================
-   زر الزعل 😂
-========================= */
+/* مود روضة */
 .mood-box {
     text-align: center;
     padding: 55px 20px;
@@ -305,9 +278,7 @@ section {
     font-size: 19px;
     font-weight: bold;
 }
-/* =========================
-   الوعد
-========================= */
+/* الوعد */
 .promise {
     text-align: center;
 }
@@ -319,7 +290,7 @@ section {
     background: rgba(255,255,255,.035);
     border: 1px solid rgba(255,255,255,.1);
 }
-.promise-box .big-heart {
+.big-heart {
     font-size: 70px;
     animation: heartbeat 1.6s infinite;
 }
@@ -338,9 +309,7 @@ section {
     margin-top: 20px;
     color: #eee;
 }
-/* =========================
-   السؤال النهائي
-========================= */
+/* النهاية */
 .final {
     min-height: 80vh;
     display: flex;
@@ -351,7 +320,7 @@ section {
     text-align: center;
     max-width: 750px;
 }
-.final-box .heart-big {
+.heart-big {
     font-size: 80px;
     animation: heartbeat 1.4s infinite;
 }
@@ -391,9 +360,7 @@ section {
     font-size: 21px;
     color: #ffacba;
 }
-/* =========================
-   الفوتر
-========================= */
+/* الفوتر */
 footer {
     text-align: center;
     padding: 50px 20px;
@@ -403,9 +370,7 @@ footer {
 footer strong {
     color: #ff8499;
 }
-/* =========================
-   موبايل
-========================= */
+/* الموبايل */
 @media (max-width: 700px) {
     .cards {
         grid-template-columns: 1fr;
@@ -423,72 +388,70 @@ footer strong {
 </style>
 </head>
 <body>
-<!-- الخلفية -->
 <div class="background">
     <div class="glow one"></div>
     <div class="glow two"></div>
 </div>
-<!-- =========================
-     البداية
-========================= -->
+<!-- البداية -->
 <header class="hero">
     <div class="hero-box">
         <div class="small">
             THIS PAGE IS ONLY FOR YOU
         </div>
-        <h1>سدين</h1>
-        <h2>ممكن دقيقة من وقتك؟ ❤️</h2>
+        <h1>روضة</h1>
+        <h2>ممكن دقيقة من وقتك يا برنسس؟ 👑❤️</h2>
         <p>
             بعرف إنك متضايقة مني...
             وعارف إن الكلام لحاله مش دايمًا بكفي،
             عشان هيك عملتلك هاي الصفحة.
-            مش عشان أبرر، بس عشان أحكيلك اللي بقلبي.
+            <br>
+            مش عشان أبرر،
+            بس عشان أحكيلك اللي بقلبي.
         </p>
         <button class="start" onclick="startPage()">
-            افتحيها يا سدين ❤️
+            افتحيها يا برنسس ❤️
         </button>
     </div>
 </header>
-<!-- =========================
-     الرسالة
-========================= -->
+<!-- رسالة الاعتذار -->
 <section id="message">
     <div class="section-title">
         <span>FROM MY HEART</span>
-        <h2>رسالة إلك يا سدين</h2>
-        <p>اقرئيها للآخر 🤍</p>
+        <h2>رسالة لروضة ❤️</h2>
+        <p>اقرئيها للآخر يا برنسس 🤍</p>
     </div>
     <div class="letter">
-        <h3>سدين... ❤️</h3>
+        <h3>برنسس... ❤️</h3>
         <p>
             إذا أنا زعلتك، فأنا آسف...
             مش آسف بس عشان الزعل صار،
             آسف لأني كنت السبب فيه.
             <br><br>
             آخر إشي بدي إياه إنك تكوني متضايقة بسببي،
-            ولا بدي كلمة مني تخلّي يومك أسوأ.
+            ولا بدي كلمة مني تخلي يومك أسوأ.
             <br><br>
-            يمكن أحيانًا الواحد يحكي أو يتصرف
+            يمكن الواحد أحيانًا يحكي أو يتصرف
             بطريقة ما يقصد فيها الأذى،
             بس بالنهاية المهم هو شعور الشخص اللي قدامه.
             <br><br>
-            وأنا شعورك عندي مهم جدًا.
+            وشعورك عندي مهم.
             <br><br>
             عشان هيك...
-            سامحيني يا سدين ❤️
+            سامحيني يا روضة ❤️
             <br><br>
             وما بدي منك تنسي زعلك بثانية،
             بس بدي منك تعطيني فرصة أصلّح اللي صار.
+            <br><br>
+            لأنك مش شخص عادي بالنسبة إلي...
+            إنتِ برنسس، وإلك مكانة خاصة بقلبي 👑❤️
         </p>
     </div>
 </section>
-<!-- =========================
-     ليش سدين مهمة؟
-========================= -->
+<!-- ليش هي مهمة -->
 <section>
     <div class="section-title">
         <span>WHY YOU?</span>
-        <h2>ليش إنتِ بالذات؟</h2>
+        <h2>ليش روضة مميزة؟</h2>
     </div>
     <div class="cards">
         <div class="card">
@@ -500,11 +463,11 @@ footer strong {
             </p>
         </div>
         <div class="card">
-            <div class="icon">❤️</div>
-            <h3>مكانتك</h3>
+            <div class="icon">👑</div>
+            <h3>برنسس</h3>
             <p>
-                إلك مكانة خاصة،
-                وما بدي أي زعل يغيّرها.
+                لأنك بالنسبة إلي
+                مش أي حدا.
             </p>
         </div>
         <div class="card">
@@ -517,12 +480,10 @@ footer strong {
         </div>
     </div>
 </section>
-<!-- =========================
-     المود
-========================= -->
+<!-- المود -->
 <section>
     <div class="mood-box">
-        <h2>قديش لسا زعلانة؟ 😂❤️</h2>
+        <h2>قديش لسا زعلانة يا برنسس؟ 😂❤️</h2>
         <p>
             اضغطي وشوفي شو رح يصير...
         </p>
@@ -532,13 +493,11 @@ footer strong {
         <div class="mood-result" id="moodResult"></div>
     </div>
 </section>
-<!-- =========================
-     الوعد
-========================= -->
+<!-- الوعد -->
 <section class="promise">
     <div class="section-title">
         <span>ONE PROMISE</span>
-        <h2>وعد صغير مني</h2>
+        <h2>وعد مني إلك</h2>
     </div>
     <div class="promise-box">
         <div class="big-heart">
@@ -551,21 +510,22 @@ footer strong {
             <br><br>
             لأن الاعتذار الحقيقي
             مش كلمة "آسف" وبس...
+            <br>
             الاعتذار الحقيقي إن الواحد يحاول
             ما يكرر نفس الشي.
+            <br><br>
+            وإنتِ بتستاهلي مني هالشي يا برنسس 👑❤️
         </p>
     </div>
 </section>
-<!-- =========================
-     النهاية
-========================= -->
+<!-- النهاية -->
 <section class="final">
     <div class="final-box">
         <div class="heart-big">
             ❤️
         </div>
         <h2>
-            وآخر سؤال...
+            وآخر سؤال يا روضة...
         </h2>
         <p>
             بعد كل اللي قرأتيه،
@@ -587,30 +547,30 @@ footer strong {
 </section>
 <footer>
     Made with ❤️ especially for
-    <strong>سدين</strong>
+    <strong>روضة</strong>
     <br><br>
-    <span>
-        مش كل اعتذار بنكتبه...
-        بعض الاعتذارات بنحط فيها القلب كله.
-    </span>
+    برنسس 👑❤️
 </footer>
 <script>
-/* =========================
-   تشغيل الصفحة
-========================= */
+/* فتح الصفحة */
 function startPage() {
     document.getElementById("message")
         .scrollIntoView({
             behavior: "smooth"
         });
 }
-/* =========================
-   القلوب المتحركة
-========================= */
+/* القلوب المتحركة */
 function createHeart() {
     const heart = document.createElement("div");
     heart.className = "heart";
-    const hearts = ["❤️", "💗", "💖", "💕", "🌹"];
+    const hearts = [
+        "❤️",
+        "💗",
+        "💖",
+        "💕",
+        "🌹",
+        "✨"
+    ];
     heart.innerHTML =
         hearts[Math.floor(Math.random() * hearts.length)];
     heart.style.left =
@@ -625,41 +585,39 @@ function createHeart() {
     }, 10000);
 }
 setInterval(createHeart, 700);
-/* =========================
-   زر المود
-========================= */
+/* زر المود */
 let mood = 0;
 function changeMood() {
     mood++;
     const result =
         document.getElementById("moodResult");
     const messages = [
-        "لسا زعلانة؟ 😭 طيب استني شوي...",
+        "لسا زعلانة؟ 😭 طيب استني شوي يا برنسس...",
         "طب خلينا نخفف الزعل شوي 😂❤️",
-        "محمد رسميًا دخل مرحلة الاعتذار المكثف 😭",
-        "آخر محاولة... ابتسامة صغيرة بس 🥹❤️",
-        "طيب خلاص 😭❤️ سامحيني يا سدين."
+        "محمد رسميًا دخل مرحلة الاعتذار المكثف 😭❤️",
+        "آخر محاولة... ابتسامة صغيرة بس 🥹",
+        "خلاص يا برنسس 😭❤️ سامحيني."
     ];
     result.innerHTML =
-        messages[Math.min(mood - 1, messages.length - 1)];
+        messages[
+            Math.min(mood - 1, messages.length - 1)
+        ];
 }
-/* =========================
-   السؤال النهائي
-========================= */
+/* السؤال النهائي */
 function answer(number) {
     const result =
         document.getElementById("answerResult");
     if (number === 1) {
         result.innerHTML =
-            "طيب 😭 خذي وقتك... بس أنا لسا مستني ابتسامتك ❤️";
+            "طيب 😭 خذي وقتك يا روضة... بس أنا لسا مستني ابتسامتك ❤️";
     }
     else if (number === 2) {
         result.innerHTML =
-            "شوي بس؟ 😭❤️ يعني لسا في أمل كبير.";
+            "شوي بس؟ 😭❤️ يعني لسا في أمل كبير يا برنسس.";
     }
     else {
         result.innerHTML =
-            "❤️❤️❤️ الحمدلله! أهم إشي رجعت ابتسامتك يا سدين.";
+            "❤️❤️❤️ الحمدلله! أهم إشي رجعت ابتسامتك يا روضة 👑";
     }
 }
 </script>
